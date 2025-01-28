@@ -51,7 +51,7 @@ os.environ['USER_AGENT'] = 'myagent'
 #CONSTANTS
 model_finetuned = ""
 model_finetuned_pavo = ""
-model_finetuned_suerox = ""  # ft:gpt-3.5-turbo-0125:pavoreal-ai:sent-mark3-pavo:9vNlGnhN  // ft:gpt-3.5-turbo-0125:pavoreal-ai:sent-mark3-pavo:9vKiqdzx
+model_finetuned_suerox = ""  # 
 model_instruct = "gpt-3.5-turbo-instruct"
 model_chat = "gpt-3.5-turbo"
 model_4o_mini = "gpt-4o-mini"
@@ -705,7 +705,7 @@ def Video_Approval(vid_filepath, vid_dir):  #MAIN FUNCTION
         #DO TRANSCRIPTIONS 
         #whisp_model = whisper.load_model("turbo")
     
-        client = OpenAI(organization="org-pxyXO3vnq9KEcJbqfNHCpPhr", project="proj_WNTj1lqgiiohY9hrjiSlAwvQ")
+        client = OpenAI(organization="", project="")
 
         audio_file= open(path_audio_file, "rb")
         translation = client.audio.transcriptions.create(

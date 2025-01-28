@@ -63,7 +63,7 @@ tesxt_splitter = RecursiveCharacterTextSplitter(chunk_size=1500, chunk_overlap=2
 #FINERAG COMMENT OUT FOR RAG DATA
 #RAG SOURCE
 data_json = []
-with open(r"C:\Users\kerem\Desktop\Ganax_Local\Data\suerox_comments_rand756.json", "r") as f:
+with open(r"C:\Users\kerem\Desktop\\Data\suerox_comments_rand756.json", "r") as f:
     for line in f:
         if line.strip():  # Skip empty lines
             try:
@@ -156,7 +156,7 @@ fine_prompt = PromptTemplate(template=fine_template,
 
 #TESTING THE MODEL
 # Open file 
-with open(r"C:\Users\kerem\Desktop\Ganax_Local\Data\suerox_comments_lastn_test.json", encoding='utf-8') as f: 
+with open(r"C:\Users\kerem\Desktop\\Data\suerox_comments_lastn_test.json", encoding='utf-8') as f: 
 
     data = json.load(f)
     #print(data)
