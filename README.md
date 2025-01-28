@@ -1,2 +1,2 @@
 # Agentic_Applications
-Systems that I've built using Agentic Workflows
+# Fundamental Agentic Systems that I've built from scratch on my Local device.
