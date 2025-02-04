@@ -1,0 +1,17 @@
+openai
+llama-index
+Flask
+Flask-Cors
+python-dotenv
+langchain
+langchain-community
+langchain_openai
+sqlalchemy
+sqlalchemy-bigquery
+snowflake-sqlalchemy
+faiss-cpu
+gunicorn==20.1.0
+scikit-learn
+langchain_chroma
+protobuf==3.20.*
+google-cloud-storage
